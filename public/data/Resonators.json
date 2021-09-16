@@ -1,0 +1,320 @@
+{
+  "lines": [
+    {
+      "id": 7662,
+      "name": "Prime Chaotic Resonator",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvUmVyb2xsMngyQyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/584267701b/Reroll2x2C.png",
+      "stackSize": 10,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          2.83,
+          6.25,
+          12.5,
+          14.58,
+          18.29,
+          19.25
+        ],
+        "totalChange": 19.25
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          2.83,
+          6.25,
+          12.5,
+          14.58,
+          18.29,
+          19.25
+        ],
+        "totalChange": 19.25
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 57.24,
+      "exaltedValue": 0.33,
+      "count": 99,
+      "detailsId": "prime-chaotic-resonator",
+      "listingCount": 782
+    },
+    {
+      "id": 7657,
+      "name": "Prime Alchemical Resonator",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvVXBncmFkZTJ4MkMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/5192b134c8/Upgrade2x2C.png",
+      "stackSize": 10,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          2.17,
+          4.35,
+          8.7,
+          8.7,
+          19.57,
+          19.57
+        ],
+        "totalChange": 19.57
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          2.17,
+          4.35,
+          8.7,
+          8.7,
+          19.57,
+          19.57
+        ],
+        "totalChange": 19.57
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 55,
+      "exaltedValue": 0.32,
+      "count": 99,
+      "detailsId": "prime-alchemical-resonator",
+      "listingCount": 675
+    },
+    {
+      "id": 7646,
+      "name": "Powerful Chaotic Resonator",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvUmVyb2xsMngyQiIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/054883dba8/Reroll2x2B.png",
+      "stackSize": 10,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 5,
+      "exaltedValue": 0.03,
+      "count": 99,
+      "detailsId": "powerful-chaotic-resonator",
+      "listingCount": 1432
+    },
+    {
+      "id": 7648,
+      "name": "Potent Chaotic Resonator",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvUmVyb2xsMngxQSIsInciOjEsImgiOjIsInNjYWxlIjoxfV0/1aa8e1c365/Reroll2x1A.png",
+      "stackSize": 10,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          100
+        ],
+        "totalChange": 100
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          100
+        ],
+        "totalChange": 100
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 2,
+      "exaltedValue": 0.01,
+      "count": 99,
+      "detailsId": "potent-chaotic-resonator",
+      "listingCount": 1872
+    },
+    {
+      "id": 7656,
+      "name": "Powerful Alchemical Resonator",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvVXBncmFkZTJ4MkEiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/30b32cdb00/Upgrade2x2A.png",
+      "stackSize": 10,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 2,
+      "exaltedValue": 0.01,
+      "count": 99,
+      "detailsId": "powerful-alchemical-resonator",
+      "listingCount": 1360
+    },
+    {
+      "id": 7647,
+      "name": "Potent Alchemical Resonator",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvVXBncmFkZTJ4MUEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MX1d/3acce880d2/Upgrade2x1A.png",
+      "stackSize": 10,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 1,
+      "exaltedValue": 0.01,
+      "count": 99,
+      "detailsId": "potent-alchemical-resonator",
+      "listingCount": 2807
+    },
+    {
+      "id": 7636,
+      "name": "Primitive Chaotic Resonator",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvUmVyb2xsMXgxQSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/eea57ec0df/Reroll1x1A.png",
+      "stackSize": 10,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          1.79,
+          13.4,
+          48.21,
+          49.12,
+          78.57,
+          39.29
+        ],
+        "totalChange": 39.29
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          1.79,
+          13.4,
+          48.21,
+          49.12,
+          78.57,
+          39.29
+        ],
+        "totalChange": 39.29
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.78,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "primitive-chaotic-resonator",
+      "listingCount": 4471
+    },
+    {
+      "id": 7635,
+      "name": "Primitive Alchemical Resonator",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvVXBncmFkZTF4MUEiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/bf5a71a635/Upgrade1x1A.png",
+      "stackSize": 10,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.5,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "primitive-alchemical-resonator",
+      "listingCount": 4750
+    }
+  ],
+  "language": {
+    "name": "en",
+    "translations": {}
+  }
+}

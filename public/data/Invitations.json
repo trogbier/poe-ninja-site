@@ -1,0 +1,502 @@
+{
+  "lines": [
+    {
+      "id": 55756,
+      "name": "Maven's Invitation: The Twisted",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvTnVsbFZvaWQyIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3c5b06022e/NullVoid2.png",
+      "itemClass": 2,
+      "sparkline": {
+        "data": [
+          0,
+          8.69,
+          24.62,
+          23.96,
+          19.55,
+          19.55,
+          21.73
+        ],
+        "totalChange": 21.73
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          8.69,
+          24.62,
+          23.96,
+          19.55,
+          19.55,
+          21.73
+        ],
+        "totalChange": 21.73
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 56,
+      "exaltedValue": 0.33,
+      "count": 99,
+      "detailsId": "mavens-invitation:-the-twisted",
+      "listingCount": 1343
+    },
+    {
+      "id": 55759,
+      "name": "Maven's Invitation: The Formed",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvTnVsbFZvaWQxIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/9e4850813c/NullVoid1.png",
+      "itemClass": 2,
+      "sparkline": {
+        "data": [
+          0,
+          -2,
+          -2,
+          -4,
+          -2,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          -2,
+          -2,
+          -4,
+          -2,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 50,
+      "exaltedValue": 0.29,
+      "count": 99,
+      "detailsId": "mavens-invitation:-the-formed",
+      "listingCount": 1332
+    },
+    {
+      "id": 55757,
+      "name": "Maven's Invitation: The Hidden",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvTnVsbFZvaWQ0IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/5a436a46d6/NullVoid4.png",
+      "itemClass": 2,
+      "sparkline": {
+        "data": [
+          0,
+          8.29,
+          11.11,
+          11.11,
+          11.11,
+          11.11,
+          11.11
+        ],
+        "totalChange": 11.11
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          8.29,
+          11.11,
+          11.11,
+          11.11,
+          11.11,
+          11.11
+        ],
+        "totalChange": 11.11
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "For those who must not endure it,\nthere may be found a perverse joy \nin watching the struggle for survival.",
+      "chaosValue": 10,
+      "exaltedValue": 0.06,
+      "count": 99,
+      "detailsId": "mavens-invitation:-the-hidden",
+      "listingCount": 3834
+    },
+    {
+      "id": 55763,
+      "name": "Maven's Invitation: The Forgotten",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvTnVsbFZvaWQzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/48f3c7fecb/NullVoid3.png",
+      "itemClass": 2,
+      "sparkline": {
+        "data": [
+          0,
+          0.73,
+          11.11,
+          11.11,
+          11.11,
+          11.11,
+          -11.11
+        ],
+        "totalChange": -11.11
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0.73,
+          11.11,
+          11.11,
+          11.11,
+          11.11,
+          -11.11
+        ],
+        "totalChange": -11.11
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 8,
+      "exaltedValue": 0.05,
+      "count": 99,
+      "detailsId": "mavens-invitation:-the-forgotten",
+      "listingCount": 2652
+    },
+    {
+      "id": 55760,
+      "name": "Maven's Invitation: The Feared",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvTnVsbFZvaWQ1IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/31ba48d1dc/NullVoid5.png",
+      "itemClass": 2,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          -26.98,
+          -22.16,
+          0,
+          -33.33,
+          66.67
+        ],
+        "totalChange": 66.67
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          -26.98,
+          -22.16,
+          0,
+          -33.33,
+          66.67
+        ],
+        "totalChange": 66.67
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 5,
+      "exaltedValue": 0.03,
+      "count": 99,
+      "detailsId": "mavens-invitation:-the-feared",
+      "listingCount": 7913
+    },
+    {
+      "id": 55748,
+      "name": "Maven's Invitation: Haewark Hamlet",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvUHJvdmluZ0dyb3VuZEhhZXdhcmtIYW1sZXQ1IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/d581ab6c29/ProvingGroundHaewarkHamlet5.png",
+      "itemClass": 2,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          33.33,
+          1.84,
+          33.33
+        ],
+        "totalChange": 33.33
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          33.33,
+          1.84,
+          33.33
+        ],
+        "totalChange": 33.33
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 4,
+      "exaltedValue": 0.02,
+      "count": 99,
+      "detailsId": "mavens-invitation:-haewark-hamlet",
+      "listingCount": 7657
+    },
+    {
+      "id": 55750,
+      "name": "Maven's Invitation: New Vastir",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvUHJvdmluZ0dyb3VuZE5ld1Zhc3RpcjUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/cd597973b7/ProvingGroundNewVastir5.png",
+      "itemClass": 2,
+      "sparkline": {
+        "data": [
+          0,
+          -5.99,
+          -24.31,
+          -28.5,
+          -33.33,
+          -33,
+          25.33
+        ],
+        "totalChange": 25.33
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          -5.99,
+          -24.31,
+          -28.5,
+          -33.33,
+          -33,
+          25.33
+        ],
+        "totalChange": 25.33
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 3.76,
+      "exaltedValue": 0.02,
+      "count": 99,
+      "detailsId": "mavens-invitation:-new-vastir",
+      "listingCount": 7115
+    },
+    {
+      "id": 55753,
+      "name": "Maven's Invitation: Tirn's End",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvUHJvdmluZ0dyb3VuZFRpcm5zRW5kNSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/b4e5041805/ProvingGroundTirnsEnd5.png",
+      "itemClass": 2,
+      "sparkline": {
+        "data": [
+          0,
+          -5.33,
+          -33.33,
+          -33.33,
+          0,
+          0,
+          23
+        ],
+        "totalChange": 23
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          -5.33,
+          -33.33,
+          -33.33,
+          0,
+          0,
+          23
+        ],
+        "totalChange": 23
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 3.69,
+      "exaltedValue": 0.02,
+      "count": 99,
+      "detailsId": "mavens-invitation:-tirns-end",
+      "listingCount": 6780
+    },
+    {
+      "id": 55749,
+      "name": "Maven's Invitation: Lira Arthain",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvUHJvdmluZ0dyb3VuZExpcmFBcnRoYWluNSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/ea5b9569b8/ProvingGroundLiraArthain5.png",
+      "itemClass": 2,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          -33.33,
+          0,
+          0,
+          11
+        ],
+        "totalChange": 11
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          -33.33,
+          0,
+          0,
+          11
+        ],
+        "totalChange": 11
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 3.33,
+      "exaltedValue": 0.02,
+      "count": 99,
+      "detailsId": "mavens-invitation:-lira-arthain",
+      "listingCount": 6478
+    },
+    {
+      "id": 55751,
+      "name": "Maven's Invitation: Lex Ejoris",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvUHJvdmluZ0dyb3VuZExleEVqb3JhczUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6f13504f82/ProvingGroundLexEjoras5.png",
+      "itemClass": 2,
+      "sparkline": {
+        "data": [
+          0,
+          24.47,
+          -2.48,
+          -17.02,
+          12.05,
+          -17.02,
+          24.47
+        ],
+        "totalChange": 24.47
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          24.47,
+          -2.48,
+          -17.02,
+          12.05,
+          -17.02,
+          24.47
+        ],
+        "totalChange": 24.47
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "For those who must not endure it,\nthere may be found a perverse joy \nin watching the struggle for survival.",
+      "chaosValue": 3,
+      "exaltedValue": 0.02,
+      "count": 99,
+      "detailsId": "mavens-invitation:-lex-ejoris",
+      "listingCount": 7104
+    },
+    {
+      "id": 55752,
+      "name": "Maven's Invitation: Glennach Cairns",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvUHJvdmluZ0dyb3VuZEdsZW5uYWNoQ2Fpcm5zNSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/909efb11fb/ProvingGroundGlennachCairns5.png",
+      "itemClass": 2,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 3,
+      "exaltedValue": 0.02,
+      "count": 99,
+      "detailsId": "mavens-invitation:-glennach-cairns",
+      "listingCount": 6464
+    },
+    {
+      "id": 55754,
+      "name": "Maven's Invitation: Lex Proxima",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvUHJvdmluZ0dyb3VuZExleFByb3hpbWE1IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/88ba30088b/ProvingGroundLexProxima5.png",
+      "itemClass": 2,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 3,
+      "exaltedValue": 0.02,
+      "count": 99,
+      "detailsId": "mavens-invitation:-lex-proxima",
+      "listingCount": 6739
+    },
+    {
+      "id": 55755,
+      "name": "Maven's Invitation: Valdo's Rest",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvUHJvdmluZ0dyb3VuZFZhbGRvc1Jlc3Q1IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3131d202c7/ProvingGroundValdosRest5.png",
+      "itemClass": 2,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 3,
+      "exaltedValue": 0.02,
+      "count": 99,
+      "detailsId": "mavens-invitation:-valdos-rest",
+      "listingCount": 9075
+    }
+  ],
+  "language": {
+    "name": "en",
+    "translations": {}
+  }
+}

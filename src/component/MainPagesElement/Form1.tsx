@@ -9,7 +9,7 @@ const Form1 = () => {
     // @ts-ignore
     const items:IItems[] = selectorItems.lines
     const [page, SetCurrentPage] = useState(1)
-    const [perPage] = useState(10)
+    const [perPage] = useState(50)
     const lastPageIndex = page * perPage
     const currentPage = items.slice(0, lastPageIndex)
     const itsLastPage = lastPageIndex >= items.length

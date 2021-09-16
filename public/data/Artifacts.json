@@ -1,0 +1,733 @@
+{
+  "lines": [
+    {
+      "id": 69149,
+      "name": "Burial Medallion",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9EYW5uaWdSZXJvbGxDdXJyZW5jeSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/62d38b9f1d/DannigRerollCurrency.png",
+      "stackSize": 1000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          -2.68,
+          -5,
+          0,
+          -0.64,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          -2.68,
+          -5,
+          0,
+          -0.64,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 11,
+      "exaltedValue": 0.06,
+      "count": 99,
+      "detailsId": "burial-medallion",
+      "listingCount": 2338
+    },
+    {
+      "id": 69146,
+      "name": "Exotic Coinage",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9CYXJ0ZXJSZWZyZXNoQ3VycmVuY3kiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/bf3e6fbe8f/BarterRefreshCurrency.png",
+      "stackSize": 1000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0.42,
+          0.14,
+          3.94,
+          4.08,
+          4.36,
+          5.2
+        ],
+        "totalChange": 5.2
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0.42,
+          0.14,
+          3.94,
+          4.08,
+          4.36,
+          5.2
+        ],
+        "totalChange": 5.2
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 7.48,
+      "exaltedValue": 0.04,
+      "count": 99,
+      "detailsId": "exotic-coinage",
+      "listingCount": 2821
+    },
+    {
+      "id": 69150,
+      "name": "Astragali",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9HYW1ibGVyUmVmcmVzaEN1cnJlbmN5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f878f8fc1a/GamblerRefreshCurrency.png",
+      "stackSize": 1000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          -4.98,
+          -16.02,
+          -17.13,
+          -17.13,
+          -17.68,
+          -17.13
+        ],
+        "totalChange": -17.13
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          -4.98,
+          -16.02,
+          -17.13,
+          -17.13,
+          -17.68,
+          -17.13
+        ],
+        "totalChange": -17.13
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 1.5,
+      "exaltedValue": 0.01,
+      "count": 99,
+      "detailsId": "astragali",
+      "listingCount": 3635
+    },
+    {
+      "id": 69141,
+      "name": "Scrap Metal",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9EZWFsZXJSZWZyZXNoQ3VycmVuY3kiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/f4db789e4b/DealerRefreshCurrency.png",
+      "stackSize": 1000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          60,
+          66
+        ],
+        "totalChange": 66
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          60,
+          66
+        ],
+        "totalChange": 66
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.83,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "scrap-metal",
+      "listingCount": 2717
+    },
+    {
+      "id": 69133,
+      "name": "Grand Sun Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMSIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/8b05d05a4e/Rune1.png",
+      "stackSize": 5000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          -4,
+          -8,
+          -4,
+          -4,
+          -4,
+          -4
+        ],
+        "totalChange": -4
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          -4,
+          -8,
+          -4,
+          -4,
+          -4,
+          -4
+        ],
+        "totalChange": -4
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.24,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "grand-sun-artifact",
+      "listingCount": 2275
+    },
+    {
+      "id": 69147,
+      "name": "Grand Black Scythe Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMjAiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/d12dd665e0/Rune20.png",
+      "stackSize": 5000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          -4.19,
+          -4.19,
+          -4.19,
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "totalChange": -0.02
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          -4.19,
+          -4.19,
+          -4.19,
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "totalChange": -0.02
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.24,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "grand-black-scythe-artifact",
+      "listingCount": 3153
+    },
+    {
+      "id": 69136,
+      "name": "Grand Order Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMjEiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/6e6f6049f8/Rune21.png",
+      "stackSize": 5000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          -6.67,
+          -6.67,
+          -6.67,
+          -6.67,
+          -6.67,
+          -6.67
+        ],
+        "totalChange": -6.67
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          -6.67,
+          -6.67,
+          -6.67,
+          -6.67,
+          -6.67,
+          -6.67
+        ],
+        "totalChange": -6.67
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.14,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "grand-order-artifact",
+      "listingCount": 2142
+    },
+    {
+      "id": 69140,
+      "name": "Grand Broken Circle Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/7333764576/Rune3.png",
+      "stackSize": 5000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          16.67,
+          16.67,
+          16.67,
+          16.67,
+          16.67,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          16.67,
+          16.67,
+          16.67,
+          16.67,
+          16.67,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.06,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "grand-broken-circle-artifact",
+      "listingCount": 1833
+    },
+    {
+      "id": 69142,
+      "name": "Greater Sun Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lNCIsInciOjEsImgiOjIsInNjYWxlIjoxfV0/dd06b711ee/Rune4.png",
+      "stackSize": 25000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          -20,
+          -20,
+          -20,
+          -20,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          -20,
+          -20,
+          -20,
+          -20,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.05,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "greater-sun-artifact",
+      "listingCount": 1764
+    },
+    {
+      "id": 69143,
+      "name": "Greater Black Scythe Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTAiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MX1d/1201b41b21/Rune10.png",
+      "stackSize": 25000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.04,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "greater-black-scythe-artifact",
+      "listingCount": 2278
+    },
+    {
+      "id": 69148,
+      "name": "Common Sun Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/9aa548286f/Rune2.png",
+      "stackSize": 50000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.04,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "common-sun-artifact",
+      "listingCount": 1600
+    },
+    {
+      "id": 69145,
+      "name": "Common Black Scythe Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/e6315d5c6e/Rune15.png",
+      "stackSize": 50000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          -33.33,
+          -33.33,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          -33.33,
+          -33.33,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.03,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "common-black-scythe-artifact",
+      "listingCount": 2144
+    },
+    {
+      "id": 69134,
+      "name": "Common Order Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/2fc60a1701/Rune14.png",
+      "stackSize": 50000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.02,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "common-order-artifact",
+      "listingCount": 1425
+    },
+    {
+      "id": 69135,
+      "name": "Greater Order Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lNyIsInciOjEsImgiOjIsInNjYWxlIjoxfV0/baa49e58ee/Rune7.png",
+      "stackSize": 25000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -50,
+          -50
+        ],
+        "totalChange": -50
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -50,
+          -50
+        ],
+        "totalChange": -50
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.01,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "greater-order-artifact",
+      "listingCount": 1518
+    },
+    {
+      "id": 69137,
+      "name": "Lesser Order Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/2f0f66e39d/Rune13.png",
+      "stackSize": 50000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.01,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "lesser-order-artifact",
+      "listingCount": 1507
+    },
+    {
+      "id": 69144,
+      "name": "Lesser Black Scythe Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lNiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/4d213fe1ed/Rune6.png",
+      "stackSize": 50000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.01,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "lesser-black-scythe-artifact",
+      "listingCount": 2276
+    },
+    {
+      "id": 69151,
+      "name": "Lesser Sun Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/8a7f5b18c3/Rune17.png",
+      "stackSize": 50000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0.01,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "lesser-sun-artifact",
+      "listingCount": 1681
+    },
+    {
+      "id": 69138,
+      "name": "Lesser Broken Circle Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTYiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/88ddde43c5/Rune16.png",
+      "stackSize": 50000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [],
+        "totalChange": 0
+      },
+      "lowConfidenceSparkline": {
+        "data": [],
+        "totalChange": 0
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "lesser-broken-circle-artifact",
+      "listingCount": 1799
+    },
+    {
+      "id": 69139,
+      "name": "Common Broken Circle Artifact",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTEiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/bbd336b002/Rune11.png",
+      "stackSize": 50000,
+      "itemClass": 5,
+      "sparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          -100,
+          -100,
+          -100
+        ],
+        "totalChange": -100
+      },
+      "lowConfidenceSparkline": {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          -100,
+          -100,
+          -100
+        ],
+        "totalChange": -100
+      },
+      "implicitModifiers": [],
+      "explicitModifiers": [],
+      "flavourText": "",
+      "chaosValue": 0,
+      "exaltedValue": 0,
+      "count": 99,
+      "detailsId": "common-broken-circle-artifact",
+      "listingCount": 1562
+    }
+  ],
+  "language": {
+    "name": "en",
+    "translations": {}
+  }
+}
