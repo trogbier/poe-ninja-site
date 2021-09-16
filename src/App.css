@@ -148,12 +148,16 @@ select {
     height: 37px;
     width: 37px;
     margin-right: 10px;
+    pointer-events: none;
 }
 
 .list_main_li {
     display: flex;
     align-items: center;
     padding: 3px 0;
+}
+.list_main_li span{
+    cursor: pointer;
 }
 
 .list_main_ul {
@@ -207,4 +211,31 @@ select {
 .middle_inner{
     max-width: 270px;
     margin-right: 20px;
+}
+tr, td div{
+    vertical-align: middle;
+}
+table{
+    width: 990px;
+    max-width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+table th, table td{
+    text-align: center;
+
+}
+td div img {
+    height: 35px;
+    margin-right: 30px;
+}
+tbody tr:hover td{
+    background-color: rgba(38, 39, 45, 0.7);
+}
+.dif_item{
+    padding: 0 10px;
+}
+td div,th div{
+    display: flex;
+    align-items: center;
 }

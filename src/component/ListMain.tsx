@@ -18,7 +18,8 @@ const ListMain = () => {
 
     const changeLink = (e: any) => {
         const link = e.target.innerText.toLowerCase().replace(/\s/g, '')
-        dispatch({type: 'CHANGE2', payload: link})
+        dispatch({type: 'CHANGE2', payload: e.target.innerText})
+        dispatch({type:'CLICK'})
         history.push(`/${selector.count1}/${link}`)
     }
     return (

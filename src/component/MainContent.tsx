@@ -1,15 +1,14 @@
 import React from 'react';
 import Welcome from "./MainPagesElement/Welcome";
-import Currency from "./MainPagesElement/Currency";
-import Equipment from "./MainPagesElement/Equipment";
+import { useAppSelector} from "../hooks/useTypedSelector";
+import Form1 from "./MainPagesElement/Form1";
 
 const MainContent = () => {
+    const selector = useAppSelector(store => store.link)
 
     return (
         <div className={'main_container'}>
-            <Welcome/>
-            <Currency/>
-            <Equipment/>
+            {selector.form==='welcome'?<Welcome/>:<Form1/>}
         </div>
     );
 };

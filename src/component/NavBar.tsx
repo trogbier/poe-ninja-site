@@ -24,15 +24,15 @@ const NavBar = () => {
                 <div className="right">
                     <ul className="header_list_ul">
                         <li className="header_list_li_right"><NavLink to={'/'}><img src={discord} alt="discord logo" className={'dicord_logo'}/></NavLink></li>
-                        <li className="header_list_li_right">
-                            <select name="pets" id="language-picker-select">
-                                <option value="" disabled hidden>Select language</option>
-                                <option lang="de" value="deutsch">Deutsch</option>
-                                <option lang="en" value="english">English</option>
-                                <option lang="fr" value="francais">Français</option>
-                                <option lang="it" value="italiano">Italiano</option>
-                            </select>
-                        </li>
+                        {/*<li className="header_list_li_right">*/}
+                        {/*    <select name="pets" id="language-picker-select">*/}
+                        {/*        <option value="" disabled hidden>Select language</option>*/}
+                        {/*        <option lang="de" value="deutsch">Deutsch</option>*/}
+                        {/*        <option lang="en" value="english">English</option>*/}
+                        {/*        <option lang="fr" value="francais">Français</option>*/}
+                        {/*        <option lang="it" value="italiano">Italiano</option>*/}
+                        {/*    </select>*/}
+                        {/*</li>*/}
                     </ul>
                 </div>
             </div>
