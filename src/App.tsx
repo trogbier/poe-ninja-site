@@ -12,7 +12,7 @@ const App = () => {
         <div className={"App"}>
             <NavBar/>
             <Switch>
-                <Route path={'/'} exact component={MainPage}/>
+                <Route path={'/'} component={MainPage}/>
             </Switch>
             <Redirect to={'/'}/>
         </div>
