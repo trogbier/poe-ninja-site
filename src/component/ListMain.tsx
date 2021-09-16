@@ -10,9 +10,9 @@ const ListMain = () => {
 
     const arr = [
         ['Currency', 'Fragments', 'Divination Card', 'Artifacts', 'Prophecies', 'Oils', 'Incubators'],
-        ['Unique Weapons', 'Unique Armours', 'Unique Accessories', 'Unique Flasks', 'Unique Jewels', 'Skill Gems', 'Cluster Jewels'],
+        ['Unique Weapons', 'Unique Armours', 'Unique Accessories', 'Unique Flasks', 'Unique Jewels', 'Cluster Jewels'],
         ['Maps', 'Blighted Maps', 'Unique Maps', 'Delirium Orbs', 'Invitations', 'Scarabs', 'Watchstones'],
-        ['Base Types', 'Fossils', 'Resonators', 'Helmet Enchants', 'Beasts', 'Essences', 'Vials']
+        ['Fossils', 'Resonators', 'Helmet Enchants', 'Beasts', 'Essences', 'Vials']
     ]
     const title = ['GENERAL', 'EQUIPMENT & GEMS', 'ATLAS', 'CRAFTING']
 

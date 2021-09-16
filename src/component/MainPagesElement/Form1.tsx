@@ -9,7 +9,7 @@ const Form1 = () => {
     // @ts-ignore
     const items:IItems[] = selectorItems.lines
     const [page, SetCurrentPage] = useState(1)
-    const [perPage] = useState(50)
+    const [perPage] = useState(30)
     const lastPageIndex = page * perPage
     const currentPage = items.slice(0, lastPageIndex)
     const itsLastPage = lastPageIndex >= items.length
@@ -31,7 +31,7 @@ const Form1 = () => {
                     return (
                         <tbody key={id} className={'form1_li'}>
                             <tr>
-                                <td><div><img src={icon} alt="icon"/>{name}, {links}L, {baseType}</div></td>
+                                <td><div className={'div_list_item'}><div className={'div_img_list'}><img src={icon} alt="icon"/></div>{name}, {links}L, {baseType}</div></td>
                                 <td className={'dif_item'}>{levelRequired}</td>
                                 <td className={'dif_item'}>{exaltedValue<=1?`${Math.round(chaosValue)} chaos`:`${exaltedValue.toFixed(1)} exalted`}</td>
                                 <td className={'dif_item'}>{lowConfidenceSparkline?.totalChange || 0}</td>
