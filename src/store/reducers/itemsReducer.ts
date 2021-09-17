@@ -20,38 +20,28 @@ export default function itemsReducer(state = defaultState, action: any) {
         }
     }
 
-    // @ts-ignore
-
-    function sortItems(name: str, type: str,name2?:string) {
+    function sortItems(name: string, type: string, name2?: any) {
         switch (type) {
             case "string":
                 if (isSorted(name)) {
-                    // @ts-ignore
                     return {...state, lines: [...sortLines.sort((a, b) => collatore.compare(a[name], b[name]))]}
                 } else {
-                    // @ts-ignore
                     return {...state, lines: [...sortLines.sort((a, b) => collatore.compare(b[name], a[name]))]}
                 }
             case "number":
                 if (isSorted(name)) {
-                    // @ts-ignore
-                    return {...state, lines: [...sortLines.sort((a, b) => a.chaosValue - b.chaosValue)]}
+                    return {...state, lines: [...sortLines.sort((a, b) => a[name] - b[name])]}
                 } else {
-                    // @ts-ignore
-                    return {...state, lines: [...sortLines.sort((a, b) => b.chaosValue - a.chaosValue)]}
+                    return {...state, lines: [...sortLines.sort((a, b) => b[name] - a[name])]}
                 }
             case "2":
                 if (isSorted(name, name2)) {
                     return {
-                        ...state,
-                        // @ts-ignore
-                        lines: [...sortLines.sort((a, b) => a[name][name2] - b.a[name][name2] )]
+                        ...state, lines: [...sortLines.sort((a, b) => a[name][name2] - b[name][name2])]
                     }
                 } else {
                     return {
-                        ...state,
-                        // @ts-ignore
-                        lines: [...sortLines.sort((a, b) => b.a[name][name2] - a.a[name][name2] )]
+                        ...state, lines: [...sortLines.sort((a, b) => b[name][name2] - a[name][name2])]
                     }
                 }
         }
@@ -61,33 +51,21 @@ export default function itemsReducer(state = defaultState, action: any) {
         case "SET_ITEMS":
             return {...state, lines: [...action.payload]}
         case "SET_SORT_NAME":
-            return sortItems('name','string')
+            return sortItems('name', 'string')
         case "SET_SORT_VALUE":
-            return sortItems('chaosValue','number')
+            return sortItems('chaosValue', 'number')
+        case "SET_SORT_LEVEL":
+            return sortItems('levelRequired', 'number')
         case "SET_SORT_LISTED":
-            // @ts-ignore
-            if (isSorted('listingCount')) {
-                // @ts-ignore
-                return {...state, lines: [...sortLines.sort((a, b) => a.listingCount - b.listingCount)]}
-            } else {
-                // @ts-ignore
-                return {...state, lines: [...sortLines.sort((a, b) => b.listingCount - a.listingCount)]}
-            }
+            return sortItems('listingCount', 'number')
+        case "SET_SORT_VARIANT":
+            return sortItems('variant', 'number')
+        case "SET_SORT_STACK_SIZE":
+            return sortItems('stackSize', 'number')
+        case "SET_SORT_MAP_TIER":
+            return sortItems('mapTier', 'number')
         case "SET_SORT_7DAYS":
-            // @ts-ignore
-            if (isSorted('lowConfidenceSparkline', 'totalChange')) {
-                return {
-                    ...state,
-                    // @ts-ignore
-                    lines: [...sortLines.sort((a, b) => a.lowConfidenceSparkline.totalChange - b.lowConfidenceSparkline.totalChange)]
-                }
-            } else {
-                return {
-                    ...state,
-                    // @ts-ignore
-                    lines: [...sortLines.sort((a, b) => b.lowConfidenceSparkline.totalChange - a.lowConfidenceSparkline.totalChange)]
-                }
-            }
+            return sortItems('lowConfidenceSparkline', '2', 'totalChange')
         default:
             return state
     }
