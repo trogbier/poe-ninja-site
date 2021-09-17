@@ -6,7 +6,11 @@ export interface IItems{
     "levelRequired"?:number,
     "baseType"?: string,
     "links"?: number,
+    "stackSize"?:number,
     "itemClass"?: number,
+    "mapTier"?:number,
+    artFilename?:string,
+    "variant"?:any,
     "sparkline"?: {
         "data": any[],
         "totalChange": number
