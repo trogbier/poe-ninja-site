@@ -252,3 +252,6 @@ th, td {
 .div_list_item{
     max-width: 500px;
 }
+th{
+    cursor: pointer;
+}

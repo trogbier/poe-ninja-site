@@ -1,10 +1,11 @@
-import {useAppSelector} from "../../hooks/useTypedSelector";
-import {useState} from "react";
+import {useAppDispatch, useAppSelector} from "../../hooks/useTypedSelector";
+import { useState} from "react";
 import {IItems} from "../../interface/IItems";
 
 const Form1 = () => {
     const selector = useAppSelector(store => store.link)
     const selectorItems = useAppSelector(store => store.items)
+    const appDispatch = useAppDispatch()
     const title = selector.count2
     // @ts-ignore
     const items:IItems[] = selectorItems.lines
@@ -13,15 +14,19 @@ const Form1 = () => {
     const lastPageIndex = page * perPage
     const currentPage = items.slice(0, lastPageIndex)
     const itsLastPage = lastPageIndex >= items.length
+
+
+
+
     return (
         <>
             <h2>{title}</h2>
             <table>
                 <thead>
                 <tr>
-                    <th><div>Name</div></th>
-                    <th className={'dif_item'}>Level</th>
-                    <th className={'dif_item'}>Value</th>
+                    <th onClick={()=>appDispatch({type:'SET_SORT_NAME'})}><div>Name</div></th>
+                    <th  className={'dif_item'}>Level</th>
+                    <th onClick={()=>appDispatch({type:'SET_SORT_VALUE'})} className={'dif_item'}>Value</th>
                     <th className={'dif_item'}>Last 7 days</th>
                     <th className={'dif_item'}># Listed</th>
                     <th className={'dif_item'}/>
