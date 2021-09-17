@@ -258,3 +258,34 @@ th{
 th:hover{
     background-color: rgba(38, 39, 45, 0.7);
 }
+.div_a{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    background-color: rgba(64, 66, 79, 0.6);
+    border-radius: 5px;
+}
+.div_a a{
+    font-size: 12px;
+}
+.chart_div{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+svg{
+    height: 22px;
+    width: 60px;
+}
+g{
+    transform: translate(0, 2);
+}
+.Sparkline_area {
+    fill: rgba(176,196,222,.15);
+}
+.Sparkline_line {
+    fill: none;
+    stroke: #4682b4;
+    stroke-width: 1.5px;
+}

@@ -3,11 +3,12 @@ import {useAppDispatch} from "../hooks/useTypedSelector";
 import {useHistory} from "react-router-dom";
 
 
+
 const SearhSection = () => {
     const dispatch = useAppDispatch()
     const history = useHistory()
 
-    const setState =  (e: any) => {
+    const setState = (e: any) => {
         dispatch({type: 'CHANGE', payload: e.target.value})
         history.push(`/${e.target.value}`)
     }
