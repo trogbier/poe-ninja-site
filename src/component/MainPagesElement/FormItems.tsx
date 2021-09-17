@@ -42,6 +42,18 @@ const FormItems = () => {
                 </tr>
                 </thead>
                 {currentPage.map(({chaosValue, id, variant, baseType, exaltedValue, mapTier, icon, stackSize, levelRequired, links, name, lowConfidenceSparkline, listingCount}: IItems) => {
+                    const colorChange =()=>{
+                            // @ts-ignore
+                        if (Math.round(lowConfidenceSparkline?.totalChange) === 0){
+                        return 'rgba(236,241,250,0.95)'
+                            // @ts-ignore
+                        }else if(lowConfidenceSparkline?.totalChange?.toFixed(1) > 0){
+                        return 'rgba(74,131,74,0.82)'
+                        }else{
+                            return 'rgba(168,55,55,0.87)'
+                        }
+                    }
+
                     return (
                         <tbody key={id} className={'form1_li'}>
                         <tr>
@@ -70,7 +82,7 @@ const FormItems = () => {
                                     <path className="Sparkline_line"
                                           d="M0,9.623736263736262C3.222222222222222,9.31252747252747,6.444444444444445,9.001318681318681,9.666666666666666,9.001318681318681C12.888888888888888,9.001318681318681,16.11111111111111,9.001318681318681,19.333333333333332,9.001318681318681C22.555555555555554,9.001318681318681,25.77777777777778,9.001318681318681,29,9.001318681318681C32.22222222222222,9.001318681318681,35.44444444444444,9.001318681318681,38.666666666666664,9.001318681318681C41.888888888888886,9.001318681318681,45.111111111111114,18,48.333333333333336,18C51.55555555555556,18,54.77777777777778,9,58,0"/>
                                 </g></svg>
-                            </div><>{`${lowConfidenceSparkline?.totalChange?.toFixed(1)}%` || 0}</></div></td>
+                            </div><span style={{color:colorChange()}}>{`${Math.round(lowConfidenceSparkline?.totalChange as number)}%` || 0}</span></div></td>
                             <td className={'dif_item'}>~{listingCount}</td>
                             <td className={'dif_item'}/>
                         </tr>
