@@ -255,3 +255,6 @@ th, td {
 th{
     cursor: pointer;
 }
+th:hover{
+    background-color: rgba(38, 39, 45, 0.7);
+}

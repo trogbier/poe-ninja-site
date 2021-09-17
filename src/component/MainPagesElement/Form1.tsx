@@ -27,8 +27,8 @@ const Form1 = () => {
                     <th onClick={()=>appDispatch({type:'SET_SORT_NAME'})}><div>Name</div></th>
                     <th  className={'dif_item'}>Level</th>
                     <th onClick={()=>appDispatch({type:'SET_SORT_VALUE'})} className={'dif_item'}>Value</th>
-                    <th className={'dif_item'}>Last 7 days</th>
-                    <th className={'dif_item'}># Listed</th>
+                    <th onClick={()=>appDispatch({type:'SET_SORT_7DAYS'})} className={'dif_item'}>Last 7 days</th>
+                    <th onClick={()=>appDispatch({type:'SET_SORT_LISTED'})} className={'dif_item'}># Listed</th>
                     <th className={'dif_item'}/>
                 </tr>
                 </thead>
@@ -38,7 +38,7 @@ const Form1 = () => {
                             <tr>
                                 <td><div className={'div_list_item'}><div className={'div_img_list'}><img src={icon} alt="icon"/></div>{name}, {links}L, {baseType}</div></td>
                                 <td className={'dif_item'}>{levelRequired}</td>
-                                <td className={'dif_item'}>{exaltedValue<=1?`${Math.round(chaosValue)} chaos`:`${exaltedValue.toFixed(1)} exalted`}</td>
+                                <td className={'dif_item'}>{exaltedValue<=1?`${Math.ceil(chaosValue)} chaos`:`${exaltedValue.toFixed(1)} exalted`}</td>
                                 <td className={'dif_item'}>{lowConfidenceSparkline?.totalChange || 0}</td>
                                 <td className={'dif_item'}>~{listingCount}</td>
                                 <td className={'dif_item'}>info</td>
