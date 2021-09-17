@@ -2,7 +2,7 @@ import {useAppDispatch, useAppSelector} from "../../hooks/useTypedSelector";
 import { useState} from "react";
 import {IItems} from "../../interface/IItems";
 
-const Form1 = () => {
+const FormItems= () => {
     const selector = useAppSelector(store => store.link)
     const selectorItems = useAppSelector(store => store.items)
     const appDispatch = useAppDispatch()
@@ -41,7 +41,7 @@ const Form1 = () => {
                                 {currentPage[0]?.mapTier && currentPage[0].baseType ? <td className={'dif_item'}>{mapTier}</td>:null}
                                 {currentPage[0]?.levelRequired ? <td className={'dif_item'}>{levelRequired}</td>:null}
                                 {currentPage[0]?.stackSize && currentPage[0]?.artFilename ? <td className={'dif_item'}>{stackSize}</td>:null}
-                                <td className={'dif_item'}>{exaltedValue<=1?`${Math.ceil(chaosValue)} chaos`:`${exaltedValue.toFixed(1)} exalted`}</td>
+                                <td className={'dif_item'}>{exaltedValue<=1?`${Math.ceil(chaosValue)} chaos`:`${exaltedValue?.toFixed(1)} exalted`}</td>
                                 <td className={'dif_item'}>{lowConfidenceSparkline?.totalChange || 0}</td>
                                 <td className={'dif_item'}>~{listingCount}</td>
                                 <td className={'dif_item'}/>
@@ -56,4 +56,4 @@ const Form1 = () => {
     );
 };
 
-export default Form1;
+export default FormItems;
