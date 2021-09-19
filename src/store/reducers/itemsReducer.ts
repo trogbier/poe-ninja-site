@@ -1,5 +1,5 @@
 const defaultState = {lines: []}
-const collatore = new Intl.Collator()
+const collator = new Intl.Collator()
 
 export default function itemsReducer(state = defaultState, action: any) {
     const sortLines = state.lines
@@ -7,31 +7,42 @@ export default function itemsReducer(state = defaultState, action: any) {
     const isSorted = (atr: any, atr2?: any) => {
         if (atr2) {
             for (let i = 1; i < sortLines.length; i++) {
-                if (sortLines[i][atr][atr2] < sortLines[i - 1][atr][atr2]) {
-                    return true
+                if (sortLines[i][atr][atr2] <= sortLines[i - 1][atr][atr2]) {
+                } else {
+                    console.log('falsseeee')
+                    return false
                 }
             }
         } else {
             for (let i = 1; i < sortLines.length; i++) {
-                if (sortLines[i][atr] < sortLines[i - 1][atr]) {
-                    return true
+                console.log('sort')
+                if (sortLines[i][atr] <= sortLines[i - 1][atr]) {
+                    // @ts-ignore
+                } else {
+                    console.log('falsseeee')
+                    return false
                 }
             }
         }
+        return true
     }
+
+    //collator.compare неправильно сравниваю
 
     function sortItems(name: string, type: string, name2?: any) {
         switch (type) {
             case "string":
                 if (isSorted(name)) {
-                    return {...state, lines: [...sortLines.sort((a, b) => collatore.compare(a[name], b[name]))]}
+                    return {...state, lines: [...sortLines.sort((a, b) => collator.compare(a[name], b[name]))]}
                 } else {
-                    return {...state, lines: [...sortLines.sort((a, b) => collatore.compare(b[name], a[name]))]}
+                    return {...state, lines: [...sortLines.sort((a, b) => collator.compare(b[name], a[name]))]}
                 }
             case "number":
                 if (isSorted(name)) {
+                    console.log('sort true')
                     return {...state, lines: [...sortLines.sort((a, b) => a[name] - b[name])]}
                 } else {
+                    console.log('sort false')
                     return {...state, lines: [...sortLines.sort((a, b) => b[name] - a[name])]}
                 }
             case "2":
@@ -59,7 +70,7 @@ export default function itemsReducer(state = defaultState, action: any) {
         case "SET_SORT_LISTED":
             return sortItems('listingCount', 'number')
         case "SET_SORT_VARIANT":
-            return sortItems('variant', 'number')
+            return sortItems('variant', 'string')
         case "SET_SORT_STACK_SIZE":
             return sortItems('stackSize', 'number')
         case "SET_SORT_MAP_TIER":
